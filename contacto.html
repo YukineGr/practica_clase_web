@@ -21,11 +21,19 @@
 
    <h1>Formulario de contacto</h1>
    <p>Deje sus datos para poder contactarlo</p>
-   <form action="Link a donde enviar la info" method="get">
+   <form action="Link a donde enviar la info" method="post">
 <label for="#nombre">Nombres</label></form></br>
-<input type="text" id="nombre" name="apellido" >
-
-
+<input type="text" id="nombre" name="nombre_usuario" placeholder="Escriba aqui sus nombres"></br>
+<label for="#apellido">Apellidos</label></br>
+<input type="text" id="apellido" name="apellido" placeholder="Escriba aqui sus apellidos"></br>
+<label for="#CC">Identificación</label></br>
+<select name="CC" id="CC">
+    <option value="CC">C.C.</OPtion>}
+    <option value="TI">T.I.</OPtion>
+    <OPtion value="RC">R.C.</OPtion>
+</select>
+<input type="text" id="ID" name="ID" placeholder="Identidicación"></br></br>
+<input type="submit" value="enviar">
    </form>
     
 </body>
